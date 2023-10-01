@@ -27,7 +27,7 @@ export default function Form() {
           <a href="">Forgot password?</a>
           <div className="recap">
             <ReCAPTCHA
-              sitekey="6Lc3qWYoAAAAABcXkgFsw0Kuto2DPytUC7I6v-9L"
+              sitekey="6Leh8mgoAAAAAEg6HjX5l8rqfNQ3tCzJQiEK-Ahp"
               onChange={onChange}
             />
           </div>
