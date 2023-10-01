@@ -5,6 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: rgba(65, 70, 184, 0.72);
+/* filter: blur(2px); */
 }
 
 code {

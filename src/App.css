@@ -1,38 +1,77 @@
-.App {
-  text-align: center;
-}
+.borders{
+  width: 800.2px;
+  height: 610.2px;
+  flex-shrink: 0;
+  border-radius: 71px;
+border: 5px  #221145;
+background: rgba(198, 199, 228, 0.74);
+/* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25); */
+margin-top: 3%;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+
+}
+.inner{
+  width: 250.128px;
+  height: 520.979px;
+  flex-shrink: 0;
+  border-radius: 52px;
+border: 2px solid #FFDEDE;
+background: rgba(73, 96, 179, 0.41);
+/* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); */
+float: left;
+margin-top: 6%;
+margin-left: 5%;
+}
+.field1{
+  border-radius: 32px;
+background: #E3E3E3;
+margin-top: 7%;
+margin-bottom: 4%;
+text-align: center;
+padding: 1%;
+width: 43%;
+font-size: large;
+
+
+}
+.field2{
+  border-radius: 32px;
+background: #E3E3E3;
+text-align: center;
+padding: 1%;
+width: 43%;
+font-size: large;
+margin-bottom: 1.5%;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.recap{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  height: 150px;
 }
-
-.App-link {
-  color: #61dafb;
+.recap1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  
+  
+  
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.sub{
+  width: 50px;
+  height: 50px;
+  background-color: #4DBA31;
+  color: #fff;
+  border: none;
+  border-radius: 50%; /* This property makes the button round */
+  font-size: 16px;
+  cursor: pointer;
 }
